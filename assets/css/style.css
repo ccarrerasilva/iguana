@@ -1,0 +1,79 @@
+body {
+  background-color: black;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+header {
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 70px;
+}
+.portada {
+  background-image: url(../img/bg-header.jpg);
+  height: 727px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main {
+  width: 80%;
+  display: flow-root;
+  margin: auto;
+  padding: 40px;
+}
+main p {
+  width: 50%;
+  float: left;
+  font-size: 16px;
+  text-align: left;
+  margin: 30px 40px 0px 0px;
+  vertical-align: middle;
+}
+main img {
+  float: right;
+}
+.caracteristicas {
+  background-color: #1e1a13;
+  padding: 20px 0;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+.caracteristicas div {
+  width: 30%;
+  display: inline-block;
+  padding: 2em;
+  box-sizing: border-box;
+  margin: 0.5em;
+}
+.caracteristicas p {
+  color: fff;
+  font-size: 24px;
+  font-weight: 300;
+}
+.galeria {
+  display: inline-block;
+  width: 80%;
+  padding: 50px 0px;
+  margin: auto;
+}
+.galeria img {
+  width: 31%;
+  margin: 5px;
+}
+footer {
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  padding: 40px;
+  background-color: #1e1a13;
+}
+a:link,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
